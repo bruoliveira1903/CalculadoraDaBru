@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Define a altura da janela de exibição */
+  margin: 0;
+}
+
+.cxtext {
+  width: 100px; /* Ajuste a largura conforme necessário */
+}
+
+.botaozero {
+  width: 55px; /* Ajuste a largura conforme necessário */
+}
+
+.botaoclean {
+  width: 80px; /* Ajuste a largura conforme necessário */
+}
+
+.calculadora {
+  border: 2px solid #000; /* Cor e largura do contorno */
+  padding: 10px; /* Espaçamento interno para afastar os botões do contorno */
+  display: inline-block; /* Para que o contorno se ajuste ao tamanho da calculadora */
+  background-color: black; /* Definir a cor de fundo como preto */
+}
+
+h1 {
+  margin-left: -55px; 
+}
